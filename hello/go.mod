@@ -1,11 +1,11 @@
-module github.com/davoodmood/goEdu/hello
+module github.com/davoodmood/goEdu/tree/main/hello
 
 go 1.17
 
-replace github.com/davoodmood/goEdu/greeting => ../greeting
+replace github.com/davoodmood/goEdu/tree/main/greeting => ../greeting
 
 require (
-	github.com/davoodmood/goEdu/greeting v0.0.0-00010101000000-000000000000
+	github.com/davoodmood/goEdu/tree/main/greeting v0.0.0-00010101000000-000000000000
 	rsc.io/quote v1.5.2
 )
 
