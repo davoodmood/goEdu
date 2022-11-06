@@ -56,10 +56,33 @@ The time complexity of Hash tables is expected to be constant in an average case
 |------|------|------|
 |O(1)  |O(1)  |O(1)  |
 
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">HashTables</th>
+    </tr>
+    <tr>
+      <th colspan="3">Average Case</th>
+    </tr>
+    <tr>
+      <td>INSERT</td>
+      <td>SEARCH</td>
+      <td>DELETE</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>O(1)</td>
+      <td>O(1)</td>
+      <td>O(1)</td>
+    </tr>
+  </tbody>
+</table>
+
 ### The time complexity of constant O(1) by comparison of data structures:
 
 |Data Structure|`INSERT`|`SEARCH`|`DELETE`|
 |--------------|--------|--------|--------|
-|Array|X|X|X|
-|LinkedList|X|X|X|
-|Hash Table|X|X|X|
+|Array|❌|❌|❌|
+|LinkedList|✔️|❌|✔️|
+|Hash Table|✔️|✔️|✔️|
