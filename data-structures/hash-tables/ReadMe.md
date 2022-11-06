@@ -78,3 +78,7 @@ The time complexity of Hash tables is expected to be constant in an average case
 |Array|❌|❌|❌|
 |LinkedList|✔️|❌|✔️|
 |Hash Table|✔️|✔️|✔️|
+
+of course in a worst case senario, if the `hash code` for all our `keys` point to the same `bucket` then our data structure will be a linked list an our complexity would be `O(n)`.
+
+`Maps` type in Golang actually implents the `hashtable` itself, but this section is to undestand how we can implement it without using any built-in libraries.

@@ -14,3 +14,54 @@ The advantage of using binary tree is literally its speed. In a somewhat well ba
 ## Insert and Search
 
 in both cases we want to start from the root and compare a given value with root node. if the value is smaller than the node, we will move it down to the left otherwise to the right. we follow this process untill we can land the value on leaf.
+
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="5">Columns</th>
+    </tr>
+    <tr>
+      <th colspan="5">to</th>
+    </tr>
+    <tr>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="5">Rows</td>
+      <td rowspan="5">from</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
