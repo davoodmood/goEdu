@@ -19,12 +19,16 @@ in both cases we want to start from the root and compare a given value with root
 <table>
   <thead>
     <tr>
+      <th colspan="2"></th>
       <th colspan="5">Columns</th>
     </tr>
     <tr>
+      <th colspan="2"></th>
       <th colspan="5">to</th>
     </tr>
     <tr>
+      <th rowspan="5"></th>
+      <th rowspan="5"></th>
       <th>1</th>
       <th>2</th>
       <th>3</th>
@@ -34,8 +38,8 @@ in both cases we want to start from the root and compare a given value with root
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5">Rows</td>
-      <td rowspan="5">from</td>
+      <td rowspan="0">Rows</td>
+      <td rowspan="0">from</td>
       <td>1</td>
       <td>2</td>
       <td>3</td>
@@ -60,6 +64,13 @@ in both cases we want to start from the root and compare a given value with root
       <td>1</td>
       <td>1</td>
       <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>1</td>
     </tr>
