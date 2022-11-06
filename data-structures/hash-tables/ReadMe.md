@@ -48,14 +48,6 @@ When searching for the `key` we first run it through the `hash function` to find
 
 The time complexity of Hash tables is expected to be constant in an average case.
 
-|HashTables          |
-|--------------------|
-|Average Case        |
-|--------------------|
-|INSERT|SEARCH|DELETE|
-|------|------|------|
-|O(1)  |O(1)  |O(1)  |
-
 <table>
   <thead>
     <tr>
