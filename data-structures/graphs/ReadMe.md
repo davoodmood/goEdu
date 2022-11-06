@@ -77,9 +77,9 @@ Considering the same example of the _adjacency list_, if we have five `vertices`
   </thead>
   <tbody>
     <tr>
-      <td rowspan="0">Rows</td>
-      <td rowspan="0">from</td>
-      <td>1</td>
+      <td rowspan="0"><strong>Rows</strong></td>
+      <td rowspan="0"><strong>from</strong></td>
+      <td><strong>1</strong></td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
@@ -87,7 +87,7 @@ Considering the same example of the _adjacency list_, if we have five `vertices`
       <td>0</td>
     </tr>
     <tr>
-      <td>2</td>
+      <td><strong>2</strong></td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
@@ -95,7 +95,7 @@ Considering the same example of the _adjacency list_, if we have five `vertices`
       <td>0</td>
     </tr>
     <tr>
-      <td>3</td>
+      <td><strong>3</strong></td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
@@ -103,7 +103,7 @@ Considering the same example of the _adjacency list_, if we have five `vertices`
       <td>1</td>
     </tr>
     <tr>
-      <td>4</td>
+      <td><strong>4</strong></td>
       <td>0</td>
       <td>1</td>
       <td>0</td>
@@ -111,7 +111,7 @@ Considering the same example of the _adjacency list_, if we have five `vertices`
       <td>1</td>
     </tr>
     <tr>
-      <td>5</td>
+      <td><strong>5</strong></td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
