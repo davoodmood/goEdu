@@ -54,3 +54,68 @@ when we _add_ a new vertex to the graph, we will add a vertex to the graph list.
 ### Adjecency Matrix
 In this implementation, a graph is expressed by a 2-dimentional (2D) array. The `vertecies` of the graph as `columns` & `rows` which will respectively represent the `from` and `to` vertex.
 
+<table>
+  <thead>
+    <tr>
+      <th rowspan="8" colspan="2"></th>
+      <th rowspan="2"></th>
+      <th colspan="5">Columns</th>
+    </tr>
+    <tr>
+      <th colspan="5">to</th>
+    </tr>
+    <tr>
+      <th>Keys</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="0">Rows</td>
+      <td rowspan="0">from</td>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
