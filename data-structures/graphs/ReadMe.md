@@ -146,7 +146,7 @@ If you want to check whether two vertices are connected or which individuals are
 |Adding Vertex|`O(n ** 2)`| `O(1)` |
 |Removing Vertex|`O(n ** 2)`| `O(E)`* |
 |Adding Edges|`O(1)`| `O(1)` |
-|Removing Edges|`O(1)`| `O(n)`* |
+|Removing Edges|`O(1)`| `O(n)` |
 
 
 `*`: `E = number of edges`
@@ -160,4 +160,4 @@ or in terms of performance:
 |Adding Vertex|`Horrible`| `Great` |
 |Removing Vertex|`Horrible`| `OK` |
 |Adding Edges|`Great`| `Great` |
-|Removing Edges|`Great`| `OK`* |
+|Removing Edges|`Great`| `OK` |
